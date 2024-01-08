@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { StyledProps } from "../interfaces/IStyledProps";
-export const Navigation = styled.nav<StyledProps>`
+import { StyledNavProps } from "../interfaces/IStyledNavProps";
+export const Navigation = styled.nav<StyledNavProps>`
   color: --text-color;
   height: 100%;
   align-items: center;
