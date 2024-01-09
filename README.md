@@ -1,3 +1,6 @@
 # Якушева Елена Владимировна 
 # Группа 221-323
-![:)](./public/pose-garfield.gif)
+# Запись работы: https://drive.google.com/file/d/1TdmCmQOmDQ0ZKLHGffvs0bNsm7h5tPxX/view?usp=sharing
+
+
+![:)](./public/Wcg.gif)
