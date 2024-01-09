@@ -21,6 +21,9 @@ export const GlobalStyles = createGlobalStyle`
         a {
             color: var(--dark);
         }
+        input{
+            background: #f5f5f5;
+        }
         button {
             background: var(--buttonColor);
             color: var(--dark);
