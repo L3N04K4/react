@@ -1,6 +1,6 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import { IMyForm } from "../interfaces/IForm";
-import { useTasks } from "../hooks/UseTasks";
+import { IMyForm } from "../../interfaces/IForm";
+import { useTasks } from "../../hooks/useTasks";
 import styled from "styled-components";
 
 const SiteForm = styled.form`

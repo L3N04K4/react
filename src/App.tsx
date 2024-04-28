@@ -1,8 +1,8 @@
 import './App.css';
-import { TableUniversity } from "./Components/TableUniversity";
-import { Navbar } from "./Components/Navbar";
+import { TableUniversity } from "./Components/Table/TableUniversity";
+import { Navbar } from "./Components/Navbar/Navbar";
 import MainRouter from "./routes/MainRouter";
-import { Form } from "./Components/Form";
+import { Form } from "./Components/Form/Form";
 
 
 export const App = () => {

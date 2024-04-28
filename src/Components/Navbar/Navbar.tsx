@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink,  useNavigate } from 'react-router-dom';
 import styled from "styled-components";
-import { ABOUT_ROUTE, CONTACTS_ROUTE, HOME_ROUTE, UNIVERSITY_ROUTE } from "../routes/configs";
-import { useAuth } from "../hooks/useAuth";
-import { useCurrentTheme } from "../hooks/useCurrentTheme";
+import { ABOUT_ROUTE, CONTACTS_ROUTE, HOME_ROUTE, UNIVERSITY_ROUTE, DOWNLOAD_ROUTE } from "../../routes/configs";
+import { useAuth } from "../../hooks/useAuth";
+import { useCurrentTheme } from "../../hooks/useCurrentTheme";
 import { Navigation } from "./Navbar.styled";
-import ThemeDark from './ThemeDark';
-import ThemeLight from './ThemeLight';
+import ThemeDark from '../Theme/ThemeDark';
+import ThemeLight from '../Theme/ThemeLight';
 
 
 const Button = styled.button`
@@ -56,6 +56,7 @@ export const Navbar: React.FC = () => {
                     <NavLink className={'link'} to={HOME_ROUTE}>Главная</NavLink>
                     <NavLink className={'link'} to={ABOUT_ROUTE}>О нас</NavLink>
                     <NavLink className={'link'} to={CONTACTS_ROUTE}>Контакты</NavLink>
+                    <NavLink className={'link'} to={DOWNLOAD_ROUTE}>Файл PDF</NavLink>
                     { isAuth && <NavLink className={'link'} to={UNIVERSITY_ROUTE}>Университеты</NavLink> }
                     <Button onClick={isAuth ? handleLogout : handleLogin}>{!isAuth ? 'Войти' : 'Выйти'}</Button>
                     <ChangeThemeButton onClick={() => changeTheme()}>
