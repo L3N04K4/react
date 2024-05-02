@@ -2,12 +2,11 @@ import { StyleSheet } from '@react-pdf/renderer'
 
 export const styles = StyleSheet.create({
   page: {
-    flexDirection: 'row',
+    flexDirection: 'column',
     backgroundColor: 'black',
     color:'white',
   },
   section: {
-    marginLeft: 50,
     margin: 5,
     padding: 5,
   },

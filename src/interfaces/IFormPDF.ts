@@ -1,4 +1,4 @@
 export interface IFormPDF {
 	name: string;
-	picture: File;
+	picture: FileList;
 }
