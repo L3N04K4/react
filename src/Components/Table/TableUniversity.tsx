@@ -1,6 +1,6 @@
 import { Table } from "antd";
-import { useData } from "../hooks/useData";
-import { columns } from "../interfaces/IUniversityInfo";
+import { useData } from "../../hooks/useData";
+import { columns } from "../../interfaces/IUniversityInfo";
 import styled from "styled-components";
 
 const Button = styled.button`
