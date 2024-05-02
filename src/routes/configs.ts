@@ -3,3 +3,4 @@ export const CONTACTS_ROUTE = 'contacts';
 export const ABOUT_ROUTE = 'about';
 export const UNIVERSITY_ROUTE = 'university';
 export const DOWNLOAD_ROUTE = 'download';
+export const CARDS_ROUTE = 'cards';

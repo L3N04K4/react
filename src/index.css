@@ -16,9 +16,7 @@
 input{
   margin: 10px;
 }
-input[type="text"], input[type="email"], input[type="number"], .sc-ftTHlr{
-  border-style: solid;
-}
+
 a {
   font-weight: 500;
   color: #646cff;
