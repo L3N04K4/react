@@ -1,12 +1,11 @@
-import { DynamicPagination } from '../DynamicPagination/DynamicPagination'
+import { DynamicPagination } from "../DynamicPagination/DynamicPagination";
 
 export const Cards = () => {
-    return ( 
-        <>
-            <DynamicPagination>  
-            </DynamicPagination>
-        </>
-    )
-}
+  return (
+    <>
+      <DynamicPagination></DynamicPagination>
+    </>
+  );
+};
 
-export default Cards
+export default Cards;

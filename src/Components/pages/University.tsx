@@ -1,5 +1,3 @@
 import React from "react";
 
-export const University = () => (
-    <h1>Университеты</h1>
-)
+export const University = () => <h1>Университеты</h1>;

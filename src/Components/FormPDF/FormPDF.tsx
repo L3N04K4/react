@@ -57,14 +57,10 @@ const FormPDF = () => {
       </form>
       {formData && (
         <PDFDownloadLink
-          document={
-            <DocumentPDF name={formData.name} picture={formData.picture} />
-          }
+          document={<DocumentPDF name={formData.name} picture={formData.picture} />}
           fileName={`${formData.name}.pdf`}
         >
-          {({ blob, url, loading, error }) =>
-            loading ? "Загрузка..." : "Скачать"
-          }
+          {({ blob, url, loading, error }) => (loading ? "Загрузка..." : "Скачать")}
         </PDFDownloadLink>
       )}
     </>
