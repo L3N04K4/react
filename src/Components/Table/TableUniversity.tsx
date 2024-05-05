@@ -16,16 +16,18 @@ const ButtonWrapper = styled.div`
 `;
 
 export const TableUniversity = () => {
-    const { page, setPage, dataSource, loading} = useData();
-    return (
-      <>
-        <Table dataSource={dataSource} columns={columns} pagination={false} />
-        <ButtonWrapper>
+  const { page, setPage, dataSource, loading } = useData();
+  return (
+    <>
+      <Table dataSource={dataSource} columns={columns} pagination={false} />
+      <ButtonWrapper>
         <Button onClick={() => setPage(page - 1)} disabled={loading}>
           Назад
         </Button>
-        <Button onClick={() => setPage(page + 1)} disabled={loading}>Вперед</Button>
+        <Button onClick={() => setPage(page + 1)} disabled={loading}>
+          Вперед
+        </Button>
       </ButtonWrapper>
-      </>
-    );
-  };
+    </>
+  );
+};

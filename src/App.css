@@ -40,18 +40,21 @@
 .read-the-docs {
   color: #888;
 }
-.ant-pagination{
+.ant-pagination {
   margin-top: 10px;
   background-color: white;
   border-radius: 10px;
 }
-.ant-pagination-prev, .ant-pagination-next{
+.ant-pagination-prev,
+.ant-pagination-next {
   background-color: white;
 }
-.ant-select{
+.ant-select {
   display: none;
 }
 
-.ant-pagination-prev:hover, .ant-pagination-next:hover, .ant-pagination-item:hover{
+.ant-pagination-prev:hover,
+.ant-pagination-next:hover,
+.ant-pagination-item:hover {
   border: 1px solid #646cffaa;
 }

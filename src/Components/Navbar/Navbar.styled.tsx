@@ -5,7 +5,7 @@ export const Navigation = styled.nav<StyledNavProps>`
   height: 100%;
   align-items: center;
   gap: 20px;
-  display: ${({displayflex}) => displayflex ? displayflex : 'flex'};
+  display: ${({ displayflex }) => (displayflex ? displayflex : "flex")};
   justify-content: space-around;
   font-size: 20px;
   text-align: center;
