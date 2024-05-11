@@ -1,43 +1,7 @@
 import { SubmitHandler, useForm } from "react-hook-form";
 import { IMyForm } from "../../interfaces/IForm";
 import { useTasks } from "../../hooks/useTasks";
-import styled from "styled-components";
-
-const SiteForm = styled.form`
-  color: --text-color;
-  display: flex;
-  width: 500px;
-  margin: 5rem auto;
-  flex-direction: column;
-  gap: 10px;
-`;
-
-const FormInput = styled.input`
-  color: --text-color;
-  padding: 0.7rem 1.7rem;
-  margin: 5px;
-  border-radius: 10px;
-`;
-
-const FormButton = styled.button`
-  color: --text-color;
-  padding: 0.5rem 1rem;
-  border: 0;
-  border-radius: 5px;
-  font-size: 17px;
-  &:hover {
-    opacity: 0.7;
-  }
-  &:disabled {
-    opacity: 0.2;
-  }
-`;
-
-const FormLabel = styled.label`
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-`;
+import { SiteForm, FormLabel, FormInput, FormButton } from "../../GlobalStyles";
 
 export const Form: React.FC = () => {
   const { tasks, setTasks } = useTasks();
@@ -54,7 +18,7 @@ export const Form: React.FC = () => {
     mode: "onBlur",
   });
   return (
-    <SiteForm onSubmit={handleSubmit(saveElement)}>
+    <SiteForm data-testid="form" onSubmit={handleSubmit(saveElement)}>
       <FormLabel>
         Имя:
         <FormInput

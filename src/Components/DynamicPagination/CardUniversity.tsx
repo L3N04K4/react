@@ -1,5 +1,5 @@
 import { IUniversity } from "../../interfaces/IUniversity";
-import { CardStyled, CardTitle, CardText } from "./DynamicPagination.styled";
+import { CardStyled, CardTitle, CardText } from "../../GlobalStyles";
 
 import { FC } from "react";
 
