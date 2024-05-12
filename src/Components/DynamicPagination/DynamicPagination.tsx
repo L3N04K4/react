@@ -3,7 +3,7 @@ import axios from "axios";
 import { useInView } from "react-intersection-observer";
 import { CardUniversity } from "./CardUniversity";
 import { IUniversity } from "../../interfaces/IUniversity";
-import { PaginationContainer, Pagination, LoadingText, LoadingInView } from "./DynamicPagination.styled";
+import { PaginationContainer, Pagination, LoadingText, LoadingInView } from "../../GlobalStyles";
 
 const LIMIT_LIST_SCHOOL = 15;
 

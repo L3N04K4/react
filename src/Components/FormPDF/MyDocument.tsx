@@ -1,6 +1,6 @@
 import { Document, Page, Text, View, Image } from "@react-pdf/renderer";
 import { FC } from "react";
-import { styles } from "./MyDocument.styled";
+import { styles } from "../../GlobalStyles";
 import { IFormPDF } from "../../interfaces/IFormPDF";
 
 const DocumentPDF: FC<IFormPDF> = ({ name, picture }) => {
